@@ -19,17 +19,11 @@ import pandas as pd
 import numpy as np
 pd.options.display.float_format = '{:.1f}'.format
 
-from datetime import date, timedelta
-
-import matplotlib.pyplot as plt
-import matplotlib.ticker as mticker
-
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 import functions as fx
 import sql
-from datetime import datetime
 
 #########################################################################################################
 #########################################################################################################
